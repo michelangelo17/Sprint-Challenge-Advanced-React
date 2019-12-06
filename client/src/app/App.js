@@ -3,6 +3,7 @@ import { H1, FlexContainer } from './emotionalThings/EmoTools'
 import EmoGlobal from './emotionalThings/EmoGlobal'
 import axios from 'axios'
 import PlayerList from './components/PlayerList'
+import DarkModeSwitch from './components/DarkModeSwitch'
 
 class App extends Component {
   _isMounted = false
@@ -24,6 +25,7 @@ class App extends Component {
       <>
         <EmoGlobal />
         <FlexContainer fdc aic>
+        <DarkModeSwitch />
         <H1 m='20px'>Most Popular Women's World Cup Players</H1>
         <PlayerList players={this.state.players} />
         </FlexContainer>

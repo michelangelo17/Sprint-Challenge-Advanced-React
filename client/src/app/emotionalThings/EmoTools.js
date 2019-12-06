@@ -13,7 +13,7 @@ export const styleVariables = {
   mainBackgroundColor: '#edf1f2',
   mainBrandColor: '#797564',
   secondaryFontColor: '#6e89a0',
-  secondaryBackgroundColor: '#81a2a6',
+  secondaryBackgroundColor: '#ffffff',
   mainFontFamily: `'Oxygen', 'sans-serif'`,
   secondaryFontFamily: `'Varela Round', 'sans-serif'`,
   fontSizeH1: '2.4rem',
