@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { H1 } from './emotionalThings/EmoTools'
+import { H1, FlexContainer } from './emotionalThings/EmoTools'
 import EmoGlobal from './emotionalThings/EmoGlobal'
 import axios from 'axios'
 import PlayerList from './components/PlayerList'
@@ -23,8 +23,10 @@ class App extends Component {
     return (
       <>
         <EmoGlobal />
-        <H1>Most Popular Women's World Cup Players</H1>
+        <FlexContainer fdc aic>
+        <H1 m='20px'>Most Popular Women's World Cup Players</H1>
         <PlayerList players={this.state.players} />
+        </FlexContainer>
       </>
     )
   }
